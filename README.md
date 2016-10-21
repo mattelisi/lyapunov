@@ -23,3 +23,13 @@ dlyap(A = M, Q = diag(4), E = crossprod(M))
 ```
 
 `lyapunov` is a simple wrapper to Algorithm 705 from the Collected Algorithms from ACM, TRANSACTIONS ON MATHEMATICAL SOFTWARE, VOL. 18, NO. 2, PP. 232-238.75.
+
+## Installation
+To install the package:
+
+```r
+library(devtools)
+devtools::install_github("gragusa/lyapunov")
+```
+
+You need development tools installed. 
