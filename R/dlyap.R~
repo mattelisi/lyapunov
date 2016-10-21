@@ -1,7 +1,0 @@
-dlyap <-
-function(A, C)
-{
-    E <- diag(1, NCOL(A))
-    sylvester(A, E, C, cond.number = FALSE)
-}
-
