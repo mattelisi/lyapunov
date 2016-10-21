@@ -6,7 +6,7 @@
 
 This kind of equation arise in the context of Kalman Filter, and specifically to initialize the variance of the states in the linear filter.
 
-The package provides a single command `dlyap`. The simple code below describe the interface, which is similar to Matlab's.
+The package provides a single command `dlyap`. The simple code below describes the interface, which is similar to Matlab's.
 
 ```r
 M <- c(135.2810,    7.8288,   14.0392,    7.2220,
@@ -32,4 +32,4 @@ library(devtools)
 devtools::install_github("gragusa/lyapunov")
 ```
 
-You need development tools installed. 
+You need development tools installed.
