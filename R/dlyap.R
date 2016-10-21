@@ -3,3 +3,7 @@ dlyap <- function(A, QQ) {
   sylvester(A = A, E = E, QQ = QQ, cond.number = FALSE)
 }
 
+dlyap <- function(A, E, QQ) {
+  sylvester(A = A, E = E, QQ = QQ, cond.number = FALSE)
+}
+
