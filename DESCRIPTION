@@ -1,0 +1,10 @@
+Package: lyapunov
+Type: Package
+Title: Calculate solution to discrete time Sylvester equation
+Version: 1.0
+Date: 2010-01-30
+Author: Giuseppe Ragusa <gragusa@luiss.it>
+Maintainer: Giuseppe Ragusa <gragusa@luiss.it>
+Description: Calculate Sylvester equation
+License: GPL 2.0 or newer
+LazyLoad: yes
