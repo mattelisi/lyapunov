@@ -14,7 +14,7 @@ sylvester <- function(A, E, QQ, cond.number = FALSE) {
   RCOND <- 0
   out <- .Fortran('SYLGD', as.integer(NAE), as.integer(NC), as.integer(N),
                   as.double(A), as.double(E), as.double(QQ),
-                  as.double(WKV), as.integer(RCOND), as.integer(ierr))
+                  as.double(WKV), as.integer(RCOND), as.integer(ierr), PACKAGE="lyapunov")
   matrix(out[[6]], N, N)
 }
 
