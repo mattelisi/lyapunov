@@ -12,7 +12,7 @@ sylvester <- function(A, E, QQ, cond.number = FALSE) {
   N     <- NAE <- NC <- dd[1]
   WKV   <- rep(0, 2*N^2+3*N)
   RCOND <- 0
-  out <- .Fortran('SYLGD', as.integer(NAE), as.integer(NC), as.integer(N),
+  out <- .Fortran('sylv', as.integer(NAE), as.integer(NC), as.integer(N),
                   as.double(A), as.double(E), as.double(QQ),
                   as.double(WKV), as.integer(RCOND), as.integer(ierr), PACKAGE='lyapunov')
   matrix(out[[6]], N, N)
